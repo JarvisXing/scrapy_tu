@@ -23,8 +23,6 @@ class DownloadIconsPipeline(ImagesPipeline):
         return super(DownloadIconsPipeline, self).item_completed(results, item, info)
 
     def file_path(self, request, response=None, info=None):
-        #f_path = super(DownloadIconsPipeline, self).file_path(request, response, info)
-        #f_path = f_path.replace('full', request.meta['userid'], 1)
         icon_name=request.meta['userid']+'.jpg'
         return '%s'%(icon_name)
     

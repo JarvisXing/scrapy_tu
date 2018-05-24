@@ -1,10 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Fri Mar 17 22:44:08 2017
-
-@author: jarvis
-"""
-
 import random
 import base64
 #from settings import PROXIES
